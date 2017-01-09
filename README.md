@@ -8,5 +8,5 @@
 <script src="hBarChart.js"></script>
 ```
 ### Demo and Documentation
-[Click here](http://hBarChart.github.io)
+[Click here](https://haruncpi.github.io/hBarChart/)
 
