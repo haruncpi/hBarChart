@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="My Chart" name="description"/>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width" name="viewport"/>
+        <title>
+            hBarChart.github.io
+        </title>
+        <script data-require="jquery@2.2.4" data-semver="2.2.4" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <link data-require="bootstrap@3.3.6" data-semver="3.3.6" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+        <script data-require="bootstrap@3.3.6" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+        </script>
+        <script src="hBarChart.js">
+        </script>
+        <script src="script.js">
+        </script>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="navbar">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="#">
+                                    hBarChart
+                                </a>
+                                <ul class="nav navbar-nav">
+                                    <li class="active">
+                                        <a target="_blank"  href="https://github.com/haruncpi/hBarChart.github.io">
+                                            Repository
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="http://learn24bd.com">
+                                            Website
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+
+              <p>
+              Version: 1.0 <br>
+              Add jQuery first and then add hBarChart.js</p>
+  
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Default Settings
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <div>
+                                    <ul class="chart">
+                                        <li data-data="1330">
+                                            ABC
+                                        </li>
+                                        <li data-data="1600">
+                                            CDE
+                                        </li>
+                                        <li data-data="550">
+                                            MMC
+                                        </li>
+                                        <li data-data="420">
+                                            IJK
+                                        </li>
+                                        <li data-data="780">
+                                            IJK
+                                        </li>
+                                        <li data-data="250">
+                                            IJK
+                                        </li>
+                                        <li data-data="1800">
+                                            IJK
+                                        </li>
+                                        <li data-data="300">
+                                            IJK
+                                        </li>
+                                        <li data-data="900">
+                                            IJK
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--6 end -->
+                    <div class="col-md-6">
+    <pre>
+    <xmp>
+    <ul class="chart1">
+        <li data-data="1330">ABC</li>
+        <li data-data="1600">CDE</li>
+        <li data-data="550">MMC</li>
+        <li data-data="420">IJK</li>
+        <li data-data="780">IJK</li>
+        <li data-data="250">IJK</li>
+        <li data-data="1800">IJK</li>
+        <li data-data="300">IJK</li>
+        <li data-data="900">IJK</li>
+    </ul>
+    </xmp>
+      $("ul.chart").hBarChart();
+    </pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- chart1 -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Customize 1
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <div>
+                                    <ul class="chart1">
+                                        <li data-data="1330">ABC</li>
+                                        <li data-data="1600">CDE</li>
+                                        <li data-data="550">MMC</li>
+                                        <li data-data="420">IJK</li>
+                                        <li data-data="780">IJK</li>
+                                        <li data-data="250">IJK</li>
+                                        <li data-data="1800">IJK</li>
+                                        <li data-data="300">IJK</li>
+                                        <li data-data="900">IJK</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--6 end -->
+                    <div class="col-md-6">
+    <pre>                 
+  <xmp>
+  <ul class="chart1">
+      <li data-data="1330">ABC</li>
+      <li data-data="1600">CDE</li>
+      <li data-data="550">MMC</li>
+      <li data-data="420">IJK</li>
+      <li data-data="780">IJK</li>
+      <li data-data="250">IJK</li>
+      <li data-data="1800">IJK</li>
+      <li data-data="300">IJK</li>
+      <li data-data="900">IJK</li>
+  </ul>
+  </xmp>            
+  $("ul.chart1").hBarChart({
+        bgColor: '#C000',
+        textColor: '#fff',
+        show: 'data',
+        sorting: true,
+        maxStyle: {
+            bg: 'orange',
+            text: 'white'
+        }
+  });
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- chart1 -->
+
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Available Options</h3>
+                <table class="table table-bordered table-condensed table-striped">
+                  <thead>
+                    <tr>
+                      <th>Option</th>
+                      <th>Type</th>
+                      <th>Default</th>
+                      <th>Remarks</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>bgColor</td>
+                      <td>string</td>
+                      <td>green</td>
+                      <td>For set background color of each bar. Here you can use color name or hex value of color</td>
+                    </tr>
+                    <tr>
+                      <td>textColor</td>
+                      <td>string</td>
+                      <td>white</td>
+                      <td>For set text color of each bar. Here you can use color name or hex value of color</td>
+                    </tr>
+                    <tr>
+                      <td>show</td>
+                      <td>string</td>
+                      <td>label</td>
+                      <td>Set label or data or both. Available: <strong>label</strong>,<strong>data</strong>,<strong>both</strong></td>
+                    </tr>
+                    <tr>
+                      <td>sorting</td>
+                      <td>boolean</td>
+                      <td>true</td>
+                      <td>Set your chart will be sorted or not according to your data</td>
+                    </tr>
+                    <tr>
+                      <td>maxStyle</td>
+                      <td>object</td>
+                      <td>
+                        {
+                          bg: 'orange',
+                          text: 'white'
+                        }
+                      </td>
+                      <td>You can style your maximum value bar.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+    </body>
+</html>
