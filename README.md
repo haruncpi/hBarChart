@@ -1,4 +1,6 @@
-<img align="center" width="640" height="320" src="hbarchart.png">
+<p align="center">
+<img src="hbarchart.png">
+</p>
 <h1 align="center">Horizontal Bar Chart</h1>
 <p align="center">
     <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://badgen.net/badge/licence/CC BY 4.0/23BCCB" /></a>
