@@ -8,7 +8,6 @@
 <p align="center">A simple horizontal barchart jQuery plugin</p>
 
 ### Usages
-### Add jQuery
 ```html
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="hBarChart.js"></script>
